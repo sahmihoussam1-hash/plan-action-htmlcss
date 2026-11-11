@@ -1,8 +1,10 @@
-# Blog preview card
+# Recipe page
 
 ## Ce que j'ai fait
-- J'ai créé la structure HTML avec une image, un badge de catégorie, un titre, un paragraphe et la section de l'auteur.
-
+- J'ai utilisé du HTML sémantique (`<main>`, `<section>`) pour organiser la page de la recette.
+- J'ai intégré des listes à puces (`<ul>`) pour les ingrédients et des listes numérotées (`<ol>`) pour les étapes de préparation.
+- J'ai créé un tableau (`<table>`) pour présenter les informations nutritionnelles.
+- J'ai appliqué le CSS pour structurer la carte, gérer les espacements et styliser les différents blocs.
 
 ## Ce qui m'a bloqué
-- J'ai fait attention à bien positionner les éléments les uns sous les autres et à gérer l'ombre de la carte.
+- J'ai pris le temps de bien structurer le tableau et de comprendre comment aligner les éléments proprement, mais tout s'est bien mis en place.
