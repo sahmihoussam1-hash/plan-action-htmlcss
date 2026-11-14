@@ -3,40 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Composant de résumé des résultats</title>
+    <title>Four card feature section</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="results-card">
-        <div class="result-section">
-            <h2>Votre Résultat</h2>
-            <div class="circle-score">
-                <span class="score">76</span>
-                <span class="total">sur 100</span>
+    <div class="container">
+        <header class="header">
+            <p class="subtitle">Reliable, efficient delivery</p>
+            <h1>Powered by Technology</h1>
+            <p class="description">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+        </header>
+        <div class="cards-container">
+            <div class="card cyan">
+                <h2>Supervisor</h2>
+                <p>Monitors activity to identify project roadblocks</p>
+                <img src="images/icon-supervisor.svg" alt="Icône Supervisor">
             </div>
-            <h3>Excellent</h3>
-            <p>Vous avez obtenu un score supérieur à 65 % des personnes ayant passé ces tests.</p>
-        </div>
-        <div class="summary-section">
-            <h2>Résumé</h2>
-            <div class="summary-item reaction">
-                <span class="category-name">Réaction</span>
-                <span class="category-score">80 <span class="max">/ 100</span></span>
+            <div class="card red">
+                <h2>Team Builder</h2>
+                <p>Scans our talent network to create the optimal team for your project</p>
+                <img src="images/icon-team-builder.svg" alt="Icône Team Builder">
             </div>
-            <div class="summary-item memory">
-                <span class="category-name">Mémoire</span>
-                <span class="category-score">92 <span class="max">/ 100</span></span>
+            <div class="card orange">
+                <h2>Karma</h2>
+                <p>Regularly evaluates our talent to ensure quality</p>
+                <img src="images/icon-karma.svg" alt="Icône Karma">
             </div>
-            <div class="summary-item verbal">
-                <span class="category-name">Verbal</span>
-                <span class="category-score">61 <span class="max">/ 100</span></span>
+            <div class="card blue">
+                <h2>Calculator</h2>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+                <img src="images/icon-calculator.svg" alt="Icône Calculator">
             </div>
-            <div class="summary-item visual">
-                <span class="category-name">Visuel</span>
-                <span class="category-score">72 <span class="max">/ 100</span></span>
-            </div>
-            <button class="continue-btn">Continuer</button>
         </div>
     </div>
+
 </body>
 </html>
