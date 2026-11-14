@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product preview card</title>
+    <title>Composant de résumé des résultats</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="product-card">
-        <img src="plan-action-htmlcss/images/src/Capture d'écran 2026-11-14 165711.png" alt="Gabrielle Essence Eau De Parfum" class="product-image">
-        <div class="product-content">
-            <span class="category">PERFUME</span>
-            <h1>Gabrielle Essence Eau De Parfum</h1>
-            <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of Chanel.</p>
-            <div class="price-container">
-                <span class="current-price">$149.99</span>
-                <span class="original-price">$169.99</span>
+    <div class="results-card">
+        <div class="result-section">
+            <h2>Votre Résultat</h2>
+            <div class="circle-score">
+                <span class="score">76</span>
+                <span class="total">sur 100</span>
             </div>
-            <button class="add-btn">Add to Cart</button>
+            <h3>Excellent</h3>
+            <p>Vous avez obtenu un score supérieur à 65 % des personnes ayant passé ces tests.</p>
+        </div>
+        <div class="summary-section">
+            <h2>Résumé</h2>
+            <div class="summary-item reaction">
+                <span class="category-name">Réaction</span>
+                <span class="category-score">80 <span class="max">/ 100</span></span>
+            </div>
+            <div class="summary-item memory">
+                <span class="category-name">Mémoire</span>
+                <span class="category-score">92 <span class="max">/ 100</span></span>
+            </div>
+            <div class="summary-item verbal">
+                <span class="category-name">Verbal</span>
+                <span class="category-score">61 <span class="max">/ 100</span></span>
+            </div>
+            <div class="summary-item visual">
+                <span class="category-name">Visuel</span>
+                <span class="category-score">72 <span class="max">/ 100</span></span>
+            </div>
+            <button class="continue-btn">Continuer</button>
         </div>
     </div>
 </body>
