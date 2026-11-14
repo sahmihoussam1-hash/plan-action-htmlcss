@@ -1,5 +1,9 @@
-# Four card feature section
+# Contact form
 
 ## Ce que j'ai fait
-- J'ai utilisé **Flexbox** pour organiser les cartes verticalement sur mobile et les aligner proprement sur grand écran.
-- J'ai personnalisé chaque carte avec une bordure supérieure colorée unique.
+- J'ai structuré un formulaire de contact complet en HTML avec des champs texte, email, des boutons radio et une zone de texte (`textarea`).
+- J'ai utilisé **Flexbox** pour positionner les champs du prénom et du nom côte à côte, ainsi que pour organiser les options radio.
+
+
+## Ce qui m'a bloqué
+- J'ai pris le temps de bien aligner les éléments interactifs (radio et checkbox) avec leurs labels.
