@@ -1,8 +1,8 @@
-# QR Code Component
+# Blog preview card
 
 ## Ce que j'ai fait
-- J'ai créé le fichier HTML avec la structure de la carte (une image, un titre et un paragraphe).
-- J'ai fait le design avec le CSS en utilisant Flexbox pour centrer la carte au milieu de la page.
+- J'ai créé la structure HTML avec une image, un badge de catégorie, un titre, un paragraphe et la section de l'auteur.
+
 
 ## Ce qui m'a bloqué
-- J'ai un peu galéré avecl'image et avec le `border-radius`, mais j'ai testé plusieurs valeurs jusqu'à ce que ça fonctionne.
+- J'ai fait attention à bien positionner les éléments les uns sous les autres et à gérer l'ombre de la carte.
