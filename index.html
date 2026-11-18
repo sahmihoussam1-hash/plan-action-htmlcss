@@ -3,33 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog preview card</title>
+    <title>Contact form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="blog-card">
-        
-        <img src="plan-action-htmlcss/images/src/Capture d'écran 2026-11-11 214157.png" alt="Illustration de l'article" class="card-image">
-        
-        
-        <span class="category">Learning</span>
-        
-      
-        <p class="date">Published 21 Dec 2023</p>
-        
-      
-        <h1><a href="#">HTML & CSS foundations</a></h1>
-        
-       
-        <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-        
-      
-        <div class="author">
-            <img src="plan-action-htmlcss/images/src/pic profile random.avif" alt="Avatar de l'auteur">
-            <span>Greg Hooper</span>
-        </div>
+    <div class="contact-card">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="name-row">
+                <div class="input-group">
+                    <label for="first-name">First Name *</label>
+                    <input type="text" id="first-name">
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last Name *</label>
+                    <input type="text" id="last-name">
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email">
+            </div>
+            <div class="input-group">
+                <label>Query Type *</label>
+                <div class="radio-container">
+                    <label class="radio-box">
+                        <input type="radio" name="query"> General Enquiry
+                    </label>
+                    <label class="radio-box">
+                        <input type="radio" name="query"> Support Request
+                    </label>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="message">Message *</label>
+                <textarea id="message" rows="4"></textarea>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="consent">
+                <label for="consent">I consent to being contacted by the team *</label>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
     </div>
-
 </body>
 </html>
